@@ -1,0 +1,14 @@
+{
+    "category": "plugins",
+    "display": "Get API Status",
+    "return_value": {
+        "AAP": {
+            "caption": "API Status",
+            "name": "status",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

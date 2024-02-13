@@ -1,0 +1,17 @@
+{
+    "categories": {
+        "0": "news",
+        "1": "location",
+        "2": "productivity",
+        "3": "technical",
+        "4": "media"
+    },
+    "demo_page": "https://bubble.io/page?name=index&id=usa-weather",
+    "description": "This plugin was built as a demonstration on how to use server actions as part of a buildcamp community livestream. \n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//meta-q.cdn.bubble.io/f1706897309068x198579077960947330/USA%20Weather.webp",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins ",
+    "name": "USA Weather",
+    "plugin_instructions": "If you need the current forecast for a location:\n\n🏃‍♀️ Run the 'Get Current Weather' action\n👍🏻 Use the data returned by the action\n\nIf you need the closest forecast for a specific location + date in the future:\n\n🏃‍♀️ Run the 'Get Closest Weather' action\n👍🏻 Use the data returned by the action\n⚠️ Date must be within 5 days from now\n",
+    "sa_node_version": 18
+}
