@@ -1,0 +1,112 @@
+{
+    "category": "plugins",
+    "display": "Get Closest Weather",
+    "fields": {
+        "AAG": {
+            "caption": "Latitude",
+            "doc": "Latitude for the location you want to get a forecast for.",
+            "editor": "DynamicValue",
+            "name": "latitude",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAH": {
+            "caption": "Longitude",
+            "doc": "Longitude for the location you want to get a forecast for.",
+            "editor": "DynamicValue",
+            "name": "longitude",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "Date",
+            "doc": "The date that you want to get the closest weather to.",
+            "editor": "DynamicValue",
+            "name": "date",
+            "rank": 3,
+            "value": "date"
+        },
+        "AAJ": {
+            "caption": "⚠️ Date must be within 5 days from now",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    },
+    "return_value": {
+        "AAD": {
+            "caption": "Name",
+            "name": "name",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Start Time",
+            "name": "startTime",
+            "rank": 1,
+            "value": "date"
+        },
+        "AAI": {
+            "caption": "End Time",
+            "name": "endTime",
+            "rank": 2,
+            "value": "date"
+        },
+        "AAJ": {
+            "caption": "Is Daytime",
+            "name": "isDaytime",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAK": {
+            "caption": "Temperature",
+            "name": "temperature",
+            "rank": 4,
+            "value": "number"
+        },
+        "AAL": {
+            "caption": "Temperature Unit",
+            "name": "temperatureUnit",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Wind Speed",
+            "name": "windSpeed",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "Wind Direction",
+            "name": "windDirection",
+            "rank": 7,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "Picture",
+            "name": "icon",
+            "rank": 8,
+            "value": "text"
+        },
+        "AAP": {
+            "caption": "Short Forecast",
+            "name": "shortForecast",
+            "rank": 9,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Detailed Forecast",
+            "name": "detailedForecast",
+            "rank": 10,
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "Precipitation",
+            "name": "precipitation",
+            "rank": 11,
+            "value": "number"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
