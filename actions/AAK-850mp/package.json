@@ -1,5 +1,5 @@
 {
-  "dependencies": {
-    "nws-api-wrapper": "^1.1.0"
-  }
+    "dependencies": {
+        "nws-api-wrapper": "^1.1.0"
+    }
 }
